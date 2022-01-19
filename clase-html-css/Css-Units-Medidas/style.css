@@ -1,0 +1,18 @@
+/* main{
+    background-color: red;
+    width: 100%;
+    height: 500%;
+}
+p {
+    font-size: 16px;
+} */
+/* body{
+    font-size: 20px;
+} */
+.text-container{
+    font-size: 1.5em; 
+    /* 1em=16px in this case because we are taking the default value of the text in html and that one is 16px*/
+}
+.text-container div{
+    font-size: 1.5em;
+}

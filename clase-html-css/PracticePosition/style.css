@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffebee;
+    font-family: 'Comic Neue', cursive;
+}
+
+.box {
+    margin: 0 auto;
+    text-align: center;
+    border: 5px #f48fb1 solid;
+    border-radius: 2rem;
+      
+}
+#my-title{
+    width: 20%;
+    position: relative;
+    top:18rem;
+    background-color: bisque;
+    padding: 2rem;
+    font-size: large;
+}
+img {
+    width: 10%;
+    position: relative;
+    left: 65rem;
+    top: 19rem ;
+
+}
+#my-text{
+    width: 40%;
+    min-height: 1rem;
+    font-size: medium;
+    padding: 20rem 5rem 6rem 5rem;
+    background-color: plum;
+    margin: auto;
+   text-align: justify;
+}
