@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --text-color:gray;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.header img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.header div {
+    display: flex;
+    justify-content: end;
+    padding: 10px 10px;
+    font-size: 1.6rem;
+  
+}
+.header div p {
+    padding: 1.5rem 0.5rem;
+    margin: 0.5rem;
+    text-align: end;
+}
+.header div p a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.header div p a:hover{
+    color: rgb(17, 17, 233);
+}
+.header div p a:active{
+    color: blueviolet;
+}
+
+.main-content{
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    margin-top: 12rem;
+    min-width: fit-content;
+
+}
+.main-content img {
+    width: 35rem;
+}
+.search-bar{
+    width: 56rem;
+    padding: 1.4rem;
+    padding-left: 5rem;
+    margin: 1.6rem;
+    border-radius: 2rem;
+    border: 0.15rem solid rgb(211, 211, 211);
+}
+.main-content .microphone{
+    position: relative;
+    bottom: 7rem;
+    left: 25rem;;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.main-content .search-icon{
+    position: relative;
+    bottom: 13rem;
+    right: 25rem;;
+    width: 4rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+.main-content button{
+    position: relative;
+    bottom: 11rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 1.2rem 2rem;
+    border: none;
+    font-size: medium;
+    color: var(--text-color);
+}
+.main-content div button{
+    cursor: pointer;
+}
+.main-content  div button:hover{
+    color: rgb(17, 17, 233);
+}
+
+footer{
+    display: inline-block;
+    width: 100%;
+    margin-top: 14rem;
+}
+footer ul{
+    display: flex;
+   justify-content:flex-start;
+   background-color: rgb(244, 239, 239);
+   padding: 1rem;
+}
+footer ul li{
+    padding: 2rem;
+    font-size: medium;
+    list-style: none;
+    text-decoration: none;
+
+}
+footer ul li a{
+    color:var(--text-color);
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: rgb(17, 17, 233);
+}
+footer ul li a:active{
+    color: blueviolet;
+}
+
+
